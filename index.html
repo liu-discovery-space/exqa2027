@@ -70,6 +70,8 @@
   .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; }
   .card h3 { margin-top: 0; color: var(--accent); }
   .card p { margin: 0; font-size: 15px; }
+  .people { grid-template-columns: 1fr; }
+  .people .card p + p { margin-top: 8px; }
   ul.topics li { margin-bottom: 8px; }
   table { width: 100%; border-collapse: collapse; background: var(--surface); }
   th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
@@ -206,15 +208,62 @@
 
 <section id="organizers">
   <h2>Organizers</h2>
-  <div class="concerns">
+  <div class="concerns people">
     <div class="card">
       <h3>Yan Liu</h3>
-      <p>Concordia University, Montreal, Canada<br><a href="mailto:yan.liu@concordia.ca">yan.liu@concordia.ca</a></p>
+      <p>Concordia University, Montreal, Canada<br><a href="mailto:yan.liu@concordia.ca">yan.liu@concordia.ca</a> · <a href="https://www.concordia.ca/faculty/yan-liu.html">Profile</a></p>
+      <p>Yan Liu is a Professor at Concordia University whose research spans cloud computing, distributed systems, software architecture, and explainable AI.
+      Her explainability work connects software services, quality measurement, and architectural decisions.
+      Relevant community activities include ICSE NIER, IEEE Software special issue guest editor, IEEE Transactions on Service Computing associate editor, CASCON observability and explainability workshops and the ICSA 2026 working session.</p>
     </div>
-    <!-- TODO: duplicate this card for each co-organizer -->
     <div class="card">
-      <h3><span class="tba">TBA</span></h3>
-      <p>Affiliation</p>
+      <h3>Zheng Li</h3>
+      <p>Queen's University Belfast, Belfast, United Kingdom<br><a href="mailto:zheng.li@qub.ac.uk">zheng.li@qub.ac.uk</a> · <a href="https://pure.qub.ac.uk/en/persons/zheng-li/">Profile</a></p>
+      <p>Zheng Li received his Ph.D. from the Australian National University (ANU) and his M.Phil. from the University of New South Wales (UNSW).
+      During his doctoral studies, he was also a graduate researcher with the Software Systems Research Group (SSRG) at National ICT Australia (NICTA).
+      He is currently a Senior Lecturer (Associate Professor) in the School of Electronics, Electrical Engineering and Computer Science at Queen’s University Belfast, UK.
+      Previously, he was a tenured Assistant Professor in the Department of Computer Science at the University of Concepción, Chile, and a postdoctoral researcher with the Cloud Control group at Lund University, Sweden.
+      He has also been a visiting research fellow at the Software Institute of Nanjing University, China.
+      His research interests include big data analytics, edge and cloud computing, edge intelligence, empirical software engineering, and performance engineering.</p>
+    </div>
+    <div class="card">
+      <h3>Abdelwahab Hamou-Lhadj</h3>
+      <p>Concordia University, Montreal, Canada<br><a href="mailto:wahab.hamou-lhadj@concordia.ca">wahab.hamou-lhadj@concordia.ca</a> · <a href="https://users.encs.concordia.ca/~abdelw/">Profile</a></p>
+      <p>Abdelwahab Hamou-Lhadj is a Professor and Chair of the Department of Electrical and Computer Engineering at Concordia University.
+      He was an Affiliate Researcher at NASA's Jet Propulsion Laboratory (JPL), Caltech, from 2022 to 2025.
+      His research focuses on AIOps, software observability, the trustworthiness of AI systems, software engineering, and model-driven engineering.
+      He has led numerous collaborative research projects with industry and institutional partners, translating advances in AI and software engineering into practical solutions for complex software ecosystems.
+      Dr. Hamou-Lhadj has served on the program committees of many leading international conferences and has organized numerous workshops and scientific events.
+      He is currently an Associate Editor of IEEE Transactions on Reliability and IEEE Software.</p>
+    </div>
+    <div class="card">
+      <h3>Qing Tan</h3>
+      <p>Athabasca University, Athabasca, Canada<br><a href="mailto:qingt@athabascau.ca">qingt@athabascau.ca</a> · <a href="https://www.athabascau.ca/science-and-technology/our-people/qing-ching-tan.html">Profile</a></p>
+      <p>Qing Tan is a Full Professor in the School of Computing and Information Systems at Athabasca University.
+      He received his PhD in Cybernetics Engineering for Robotics from the Norwegian Institute of Technology (now the Norwegian University of Science and Technology) in 1993.
+      He subsequently served as a Foreign Senior Research Fellow at the Japan Atomic Energy Research Institute and completed a postdoctoral fellowship at the University of Alberta before joining Athabasca University in 2007.
+      Dr. Tan’s research spans mobile learning, telepresence robotics, and cyber-physical systems.
+      His current work focuses on the Telepresence Robot Empowered Smart Lab (TRESL) and the integration of Autonomous Digital Twin Teammates (ADTTs) into Human–Autonomy Teaming (HAT), exploring how artificial intelligence and digital twins can support transparent, adaptive, and trustworthy collaboration between humans and autonomous systems.
+      He has extensive experience in teaching, student supervision, and research, with a strong record of scholarly publications and externally funded projects.</p>
+    </div>
+    <div class="card">
+      <h3>Zhen Yang</h3>
+      <p>Shandong University, Qingdao, China<br><a href="mailto:zhenyang@sdu.edu.cn">zhenyang@sdu.edu.cn</a> · <a href="https://yz1019117968.github.io/mark.github.io/">Profile</a></p>
+      <p>Zhen Yang is an Assistant Professor in the School of Computer Science and Technology at Shandong University.
+      His main research areas are software engineering, program comprehension, and program generation.
+      He received his PhD in Computer Science from City University of Hong Kong in October 2023, supervised by Prof. Jacky Keung.
+      He has published nearly 40 papers in leading international software engineering journals and conferences, including FSE, ASE, ISSTA, TSE, and TOSEM, with over 1,400 Google Scholar citations.
+      He has led projects funded by the National Natural Science Foundation of China, the Shandong Provincial Natural Science Foundation, and others.
+      He was selected for the Shandong Provincial Young Science and Technology Talent Support Program and the Shandong Provincial Overseas Science and Technology Talent Introduction Program.
+      He serves as a program committee member for conferences such as SANER and MSR, and as a reviewer for software engineering journals such as TOSEM and TSE.</p>
+    </div>
+    <div class="card">
+      <h3>Jun Huang</h3>
+      <p>Concordia University, Montreal, Canada<br><a href="mailto:jun.huang@mail.concordia.ca">jun.huang@mail.concordia.ca</a> · <a href="https://users.encs.concordia.ca/~hu_ju/">Profile</a></p>
+      <p>Jun Huang is a Ph.D. student in Electrical and Computer Engineering at Concordia University, Montréal, Canada.
+      Jun’s research is on explainable AI (XAI): the evaluation of XAI methods, provenance-based machine learning and explainability operations (MLXOps), and explainability for medical imaging and software vulnerability analysis.
+      Jun has published at ICSE-NIER, IEEE Big Data, and COMPSAC, and in IEEE Transactions on Cloud Computing and IEEE Access.
+      Jun presented the talk “How do we efficiently integrate explainable AI (XAI) to help the deep learning of medical images?” at the 1st International Workshop on Observability and Explainability of AI Systems (OXAI’24), co-located with CASCON 2024 in Toronto.</p>
     </div>
   </div>
 </section>

@@ -14,5 +14,4 @@ Call for papers for EXQA 2027, co-located with FSE 2027 (Shenzhen, July 12–16,
 - Workshop date within FSE week
 - Submission site link (HotCRP / EasyChair)
 - Confirm template requirement against FSE 2027 workshop author instructions
-- Co-organizer cards
 - Program committee list
